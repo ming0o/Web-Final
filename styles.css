@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #96A5FF;
+    padding: 128px;
+    z-index: -1;
+}
+
+.slot{
+    display: flex;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+img .map{
+    width: 50%;
+}
+
+.right-slot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.profile-image{
+    width: 50%;
+    border: 2px double #000000;
+}
+.login-button {
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    padding: 10px 20px;
+    color: #000000;
+    font-size: 20px;
+}
+
+.welcome-message {
+    color: #000000;
+    margin-top: 50px; /* 버튼 아래 여백 조정 */
+    font-size: 30px;
+    font-weight: bold;
+}
