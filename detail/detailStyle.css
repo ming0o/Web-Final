@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+
+body, html {
+    height: 100%; 
+}
+
+body {
+    background-color: #DCEBFF;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    background-color: none;
+}
+
+header h1 {
+    font-family: 'Mali', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 2px #000000;
+}
+
+main {
+    display: flex;
+    background-color: #FFFFFF;
+    height: auto;
+    padding-left: 70px;
+    padding-right: 70px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+footer{
+    width: 100%;
+    height: 10%;
+}
+
+.title {
+    font-family: 'Inder', sans-serif;
+    font-size: 32px;
+    color: #000000;
+    text-align: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.bigpic{
+    width: 50%;
+    height: auto;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.divider1 {
+    width: 2px;
+    background-color: #000000;
+    border: none;
+    border-style: double;
+    margin: 0 20px; /* 원하는 만큼 조정하세요 */
+}
+
+.smallcontent {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.divider2 {
+    width: 100%;
+    background-color: #c8c8c8;
+    border: none;
+    border-style: dotted;
+}
+
+.info{
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    text-align: start;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.info2{
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    text-align: start;
+    align-items: center;
+    margin-bottom: 40px;
+    @media (max-width: 1000px) {
+        display: none;
+    }
+}
+
+.review{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.profile-image{
+    margin-top: 30px;
+    width: 40%;
+    border: 2px solid #000000;
+    margin-right: 30px;
+}
+
+.title2 {
+    font-family: 'Inder', sans-serif;
+    font-size: 32px;
+    color: #000000;
+    text-align: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.more-button {
+    align-self: flex-end;
+    margin-top: auto;
+    font-size: 24px;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #DCEBFF;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.more-button:hover {
+    background-color: #A7C8FF;
+}
